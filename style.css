@@ -3,6 +3,12 @@
     font-family: "Inter", sans-serif;
     overflow-x: hidden;
 }
+body{
+    margin: 0;
+    background-image: url("images/bkgd.jpg");
+    background-repeat: repeat-x;
+    background-size: auto;
+}
 nav{
     display: flex;
     align-items: center;
@@ -32,20 +38,20 @@ ul li{
      color: white;
      font-size: 18px;
 }
+
 .btn{
-    background-color: rgb(255, 255, 255);
-    border: 1px solid;
-    height: 25px;
-    width: 100px;
-    border-radius: 8px;
-    border: none;
-}
-.btn a{
     text-decoration: none;
     color: #001B6B;
-    
-    font-size: 15px;
+    background-color: rgb(255, 255, 255);    
+    height: 25px;
+    width: 90px;
+    border-radius: 8px;
+    padding: 2px;
+    text-align: center;   
+    font-size: 14px;
 }
+
+/* THE FIRST SECTION */
 .section-1{
     display: flex;
     flex-direction: column;
@@ -75,6 +81,8 @@ margin: 2.5px 0px;
     left:5px;
     background-color: #001B6B;
 }
+
+/* THE SECOND SECTION */
 
 .section-2{
     display: flex;
@@ -108,7 +116,7 @@ margin: 2.5px 0px;
 
 }
 
-
+/* THE 3RD SECTION */
 .section-3{
     display: flex;
     flex-direction: column;

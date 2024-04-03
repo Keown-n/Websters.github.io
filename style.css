@@ -9,7 +9,10 @@ body{
     background-repeat: repeat-x;
     background-size: auto;
 }
-nav{
+
+/*HEADER*/
+
+header{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -19,11 +22,18 @@ nav{
     background-color: #001B6B;
     border-radius: 13px;
 }
-nav h2{
+#nav-bar{
+    display: flex;
+    width: 50vw;
+    align-items: center;
+    justify-content: space-between;
+}
+header h2{
     color: white;
     font-size: 30px;
     margin: 15px 0px;
 }
+
 .nav-list{
     list-style:none;
     padding: 0px;
@@ -75,12 +85,7 @@ margin: 2.5px 0px;
     border: none;
     margin: 20px 0px;
     box-shadow: #809FFF 15px 15px, #BFCFFF -15px -15px;
-}
-.img-person::before{
-    content: "";
-    position: relative;
-    left:5px;
-    background-color: #001B6B;
+
 }
 
 .bottom-curve {
@@ -132,14 +137,24 @@ margin: 2.5px 0px;
 
 .row-1 td{
     width: 150px;
+    align-items: center;
     
 }
 
 .row-1 td p{
     text-align: center;
-    font-size: 1.25rem;
+    font-size: 2vw;
     font-weight: 700;
     color: white;
+}
+
+.web{
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20vw;
+    
 }
 
 
@@ -178,7 +193,7 @@ margin: 2.5px 0px;
     margin: 3px 0px;
 }
 
-.custom-shape-divider-top-1712084183 {
+.top-curve {
     
     top: 0;
     left: 0;
@@ -187,27 +202,20 @@ margin: 2.5px 0px;
     line-height: 0;
 }
 
-.custom-shape-divider-top-1712084183 svg {
+.top-curve svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
     height: 150px;
 }
 
-.custom-shape-divider-top-1712084183 .shape-fill {
+.top-curve .shape-fill {
     fill: #001B6B;
 }
 
 
 
-
-
-
-
-
-
-
-
+/* FOOTER*/
 footer{
     height: 5%;
     background-color: #809FFF;
@@ -251,6 +259,7 @@ ion-icon {
     margin: 0px 4px; 
     
 }
+
 .twit{
     display: flex;
     justify-content: center;
@@ -274,4 +283,21 @@ ion-icon {
 .f-links a{
     text-decoration: none;
     color: white;
+}
+
+
+@media  (max-width:800px) {
+    
+
+    .section-1 h2 ,.section-1 h3{
+         text-align: center;
+    }
+
+    .section-3 h2{
+        text-align: center;
+    }
+
+    
+    
+
 }

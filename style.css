@@ -40,6 +40,12 @@ header ul li a{
     text-decoration: none;
     font-size: 1.3rem;
     color: black;
+    transition: color .3s;
+}
+
+header ul li a:hover{
+
+    color: #52AFC1;
 }
 
 #menu{
@@ -99,6 +105,12 @@ header ul li a{
     border-radius: 40px;
     color: white;
     background-color: #002755;
+    transition: background-color .3s;
+}
+
+.btn:hover{
+
+    background-color: #52afc1;
 }
 
 /*Section 2*/
@@ -198,8 +210,38 @@ footer{
     /*HEADER*/ 
     header ul{
 
-        display: none;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: -200px;
+        top: 101px;
+       
+        
+    }
 
+    .menu{
+        right: 0px;
+    }
+
+    header ul li{
+
+        background-color:#003E88;
+        border:#003E88 solid;
+        margin: 0;
+
+        
+        width: 100px;
+        padding: 15px;
+        
+    }
+    header ul li a{
+
+        color:white;
+    }
+
+    header ul li:hover{
+        background-color:#52AFC1;
+        border:#52AFC1 solid;
     }
 
     header img{
@@ -276,6 +318,8 @@ footer{
 @media (max-width:908px) {
 
     /*HEADER*/
+    
+
     header img{
 
         width: 120px;

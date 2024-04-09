@@ -190,6 +190,9 @@ footer{
     border-top: solid 1px #002755;
 }
 
+/*///////////////////////////////////////////////////////////////////////*/
+/*Different screen sizes*/
+
 @media (max-width:998px){
 
     /*HEADER*/ 
@@ -277,6 +280,8 @@ footer{
 
         width: 120px;
     }
+
+    
 
     /*SECTION 2*/
     #s-2{

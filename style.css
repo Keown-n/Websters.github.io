@@ -4,6 +4,11 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 
 /*HEADER*/
 
@@ -13,7 +18,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px 70px 10px 50px;
-    overflow: hidden;
+    
 
     
 }
@@ -150,13 +155,15 @@ ion-icon {
     justify-content: center;
     align-items: center;
     height: 300px;
-    background-image:linear-gradient(to right, #52AFC1,#002755);
+    
+    
 
 }
 #s-4 h2{
     margin: 20px 0px;
     font-size: 1.9rem;
-    color: white;
+    color: linear-gradient(to right, #52AFC1,#002755);
+    text-align: center;
 }
 #s-4 a{
     font-size: 1.25rem;
@@ -214,7 +221,7 @@ footer{
 
     .right-box img{
 
-        width:500px;
+        width:90vw;
 
     }
 
